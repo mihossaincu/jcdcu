@@ -26,7 +26,7 @@
         const container = document.querySelector(`[data-section="${name}"]`);
         if (!container) return;
 
-        const res = await fetch(`sections/${name}.html`);
+        const res = await fetch(`${name}.html`);
         if (!res.ok) {
           console.warn(`Section not found: ${name}`);
           return;
