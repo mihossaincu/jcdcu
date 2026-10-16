@@ -1,0 +1,88 @@
+<!-- ========== STUDENT WELFARE ========== -->
+<section id="welfare" class="section">
+  <div class="container">
+    <h2 class="section-title">শিক্ষার্থীদের কল্যাণ ও সেবা</h2>
+
+    <!-- Blood Bank -->
+    <div class="welfare-blood">
+      <h3><i class="fas fa-tint"></i> অনলাইন রক্তদান কেন্দ্র (CU BloodLink)</h3>
+      <div class="blood-grid">
+        <div>
+          <h4 style="margin-bottom:16px;font-weight:600;">রক্তের জন্য আবেদন করুন</h4>
+          <form onsubmit="handleFormSubmit(event, 'রক্ত আবেদন')">
+            <div class="form-group">
+              <label>রক্তের গ্রুপ</label>
+              <select required>
+                <option value="">নির্বাচন করুন</option>
+                <option>A+</option><option>A-</option>
+                <option>B+</option><option>B-</option>
+                <option>AB+</option><option>AB-</option>
+                <option>O+</option><option>O-</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>আপনার নাম</label>
+              <input type="text" placeholder="পূর্ণ নাম" required>
+            </div>
+            <div class="form-group">
+              <label>মোবাইল নম্বর</label>
+              <input type="tel" placeholder="০১৭xxxxxxxx" required>
+            </div>
+            <div class="form-group">
+              <label>অতিরিক্ত তথ্য</label>
+              <textarea rows="2" placeholder="হাসপাতাল / জরুরি তথ্য"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">রক্তের জন্য আবেদন করুন</button>
+          </form>
+        </div>
+        <div>
+          <h4 style="margin-bottom:16px;font-weight:600;">উপলব্ধ রক্তদাতা</h4>
+          <div class="blood-list">
+            <div class="blood-donor">
+              <strong>রাকিব হাসান</strong> – O+ | শাহ আমানত হল | ০১৭xxxxxxxx
+            </div>
+            <div class="blood-donor">
+              <strong>সাদিয়া আক্তার</strong> – B+ | এ এফ রহমান হল | ০১৮xxxxxxxx
+            </div>
+            <div class="blood-donor">
+              <strong>ইমরান খান</strong> – A+ | প্রভাত কুমার হল | ০১৯xxxxxxxx
+            </div>
+            <div class="blood-donor">
+              <strong>নাহিদ হাসান</strong> – AB+ | শাহজালাল হল | ০১৬xxxxxxxx
+            </div>
+            <div class="blood-donor">
+              <strong>ফারহানা ইসলাম</strong> – O- | সিতারা বেগম হল | ০১৫xxxxxxxx
+            </div>
+          </div>
+          <button class="btn btn-outline" style="margin-top:16px;font-size:0.9rem;" onclick="alert('রক্তদাতা নিবন্ধন ফর্ম শীঘ্রই আসছে')">
+            আমি রক্তদাতা হিসেবে নিবন্ধন করতে চাই
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Helpdesk & Career -->
+    <div class="welfare-services">
+      <div class="service-card green">
+        <h3><i class="fas fa-hands-helping"></i> হেল্পডেস্ক ও ভর্তি সহায়তা</h3>
+        <ul>
+          <li><i class="fas fa-check" style="color:var(--green);"></i> নতুন ভর্তি পরীক্ষার্থীদের গাইডলাইন</li>
+          <li><i class="fas fa-check" style="color:var(--green);"></i> হল সিট সমস্যা সমাধান</li>
+          <li><i class="fas fa-check" style="color:var(--green);"></i> পরীক্ষা ও রেজাল্ট সংক্রান্ত সহায়তা</li>
+          <li><i class="fas fa-check" style="color:var(--green);"></i> জরুরি যোগাযোগ: ০১৭xxxxxxxx</li>
+        </ul>
+        <a href="#join" class="btn btn-primary">সহায়তা নিন</a>
+      </div>
+      <div class="service-card blue">
+        <h3><i class="fas fa-briefcase"></i> ক্যারিয়ার ও স্কিল ডেভেলপমেন্ট</h3>
+        <ul>
+          <li><i class="fas fa-check" style="color:#2563eb;"></i> ফ্রি আইটি কোর্স ও সেমিনার</li>
+          <li><i class="fas fa-check" style="color:#2563eb;"></i> রিজিউম রাইটিং ওয়ার্কশপ</li>
+          <li><i class="fas fa-check" style="color:#2563eb;"></i> জব প্লেসমেন্ট সহায়তা</li>
+          <li><i class="fas fa-check" style="color:#2563eb;"></i> স্কিল ট্রেনিং রেজিস্ট্রেশন</li>
+        </ul>
+        <a href="#" class="btn" style="background:#2563eb;color:#fff;" onclick="alert('রেজিস্ট্রেশন ফর্ম শীঘ্রই আসছে')">রেজিস্ট্রেশন করুন</a>
+      </div>
+    </div>
+  </div>
+</section>
